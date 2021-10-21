@@ -311,7 +311,8 @@
 			calcResult = (Number(calcCoefficients['select1']) + Number(calcCoefficients['select2']) + Number(calcCoefficients['select3']) + Number(calcCoefficients['select4']) + calcCoefficients['slider1'] + calcCoefficients['slider2'])*55
 			$('.calcblockbottomcolor')[0].innerHTML = calcResult + '.00 $'
 		}
-
+		calc()
+		
 		let calcCoefficients = {
 			select1: 1,
 			select2: 1,
